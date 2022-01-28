@@ -1,0 +1,22 @@
+{
+    "name": "app-05",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js -e ejs"
+    },
+    "author": "Mr Amit",
+    "license": "ISC",
+    "dependencies": {
+        "alert": "^5.0.10",
+        "axios": "^0.24.0",
+        "body-parser": "^1.19.1",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "mongoose": "^6.1.5",
+        "morgan": "^1.10.0"
+    }
+}
